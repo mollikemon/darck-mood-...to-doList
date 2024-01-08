@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class=" onof" onclick="myFunction()">dark mud</button>
+  <div class="tom">
+  <div>
+   <input type="text"id="contener">
+    <button  class=" onf" onclick="colackTawor()">click Me</button>
+  </div>
+ <ul id="list">
+ </ul>
+</div>
+
+
+
+<script>
+
+function myFunction(){
+  let conten=document.body;
+  conten.classList.toggle('hunger');
+}
+
+
+
+
+
+// .......................................................................
+      let sumon =document.getElementById('contener')
+      let emon =document.getElementById('list')
+       function colackTawor(){
+       if(sumon.value===''){
+        alert('hi im emon')
+       }
+       else{
+         emon.innerHTML+='<li class="bima-sokti">'+ sumon.value+'</li>';
+         localStorage.MIRAZ=emon.innerHTML;
+         value="";
+       }          
+       emon.innerHTML=localStorage.MIRAZ               
+      } 
+// ..............................................................//
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>

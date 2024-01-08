@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+}
+.bima-sokti{
+  list-style-type:none;
+}
+#color{
+  background-color: black;
+  color: #fff;
+}
+.tom{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.onof{
+  background-color: red;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.onf{
+  background-color: red;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+.hunger{
+  background-color: rgb(255, 0, 238);
+  color: #fff;
+}
